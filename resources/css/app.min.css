@@ -1,0 +1,37 @@
+.p-desktop-5{
+    padding: 3em;
+}
+
+@media (max-width: 650px) {
+    .p-desktop-5{
+        padding: 1.5em;
+    }
+    .card_none{
+        padding: 0em;
+        background-color: #f6f6f600;
+        border-radius: 0em;
+        box-shadow: none;
+    }
+    tr.mobile-none,
+    th.mobile-none{
+        display: none;
+    }
+}
+@media(max-width: 480px) {
+    .p-desktop-5{
+        padding: 0.5em;
+    }
+    .ufo_btn{
+        width: 100%;
+    }
+    .card_none{
+        padding: 0em;
+        background-color: #f6f6f600;
+        border-radius: 0em;
+        box-shadow: none;
+    }
+    tr.mobile-none,
+    th.mobile-none{
+        display: none;
+    }
+}
